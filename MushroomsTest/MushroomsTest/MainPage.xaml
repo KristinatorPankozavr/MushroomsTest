@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MushroomsTest.MainPage">
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="Меню грибов" BackgroundColor="#fcad03" Padding="15">
+            <ContentPage.Content>
+                <StackLayout Margin="15" Orientation="Vertical">
+                    <Image x:Name="Grib"></Image>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+</MasterDetailPage>
